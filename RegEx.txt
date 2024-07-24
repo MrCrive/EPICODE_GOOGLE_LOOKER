@@ -1,0 +1,12 @@
+CODICE FISCALE
+\b[A-Z]{6}\d{2}[A-Z]{1}\d{2}[A-Z]{1}\d{3}[A-Z]
+
+INDIRIZZO E-MAIL
+\b\w{1,}\.\w{1,}\.\d{1,}\@\w{5,}\.\w{2,}
+
+DATA NEL FORMATO DD/MM/YYYY
+\d{2}\/\d{2}\/\d{4}
+
+PASSWORD TRA I 10 E I 15 CARATTERI, CON ALMENO UNA LETTERA MAIUSCOLA, UNA LETTERA MINUSCOLA, UNA CIFRA E UN SEGNO DI PUNTEGGIATURA
+((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[.,!,?,:]).{10,15})
+
